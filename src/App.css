@@ -1,0 +1,28 @@
+/* Add these styles to your CSS file */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding-left: 1rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .search-button {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
